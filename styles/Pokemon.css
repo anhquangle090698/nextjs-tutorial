@@ -1,0 +1,23 @@
+.pokemon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    max-width: 200px;
+    height: 200px;
+    margin-inline: auto;
+    margin-top: 40px;
+
+    background-color: antiquewhite;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.pokemon-img {
+    scale: 1.5;
+    display: block;
+}
